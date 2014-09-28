@@ -28,6 +28,7 @@
         "behat/mink-selenium2-driver": "*",
         "behat/mink-browserkit-driver": "*",
         "behat/mink-zombie-driver": "*",
-        "behat/mink-selenium-driver": "*"
+        "behat/mink-selenium-driver": "*",
+        "sizuhiko/fabricate": "1.*"
    }
 }
