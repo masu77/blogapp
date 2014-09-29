@@ -8,6 +8,11 @@ class PostsController extends AppController {
 
 	public $components = ['Paginator', 'RequestHandler', 'Session'];
 
+	public $helpers = [
+		'Html' => ['className' => 'BoostCake.BoostCakeHtml'],
+		'Form' => ['className' => 'BoostCake.BoostCakeForm'],
+	];
+
 	public function index() {
 		$this->set('posts', $this->Paginator->paginate());
 	}
