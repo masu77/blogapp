@@ -31,6 +31,9 @@
         "behat/mink-zombie-driver": "*",
         "behat/mink-selenium-driver": "*",
         "sizuhiko/fabricate": "1.*",
-        "phing/phing": "~2.8"
+        "phing/phing": "~2.8",
+        "cakephp/cakephp-codesniffer": "0.1.*",
+        "phpmd/phpmd": "2.*",
+        "sebastian/phpcpd": "2.*"
    }
 }
